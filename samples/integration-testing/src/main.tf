@@ -9,6 +9,7 @@ resource "azurerm_resource_group" "rg" {
     Environment = "Production"
     Workload = "SAP"
     Version = "1.0"
+    Owner = "YE"
 
   }
 }
